@@ -2,28 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono&display=swap');
 
-body{
+body {
     background-color: #FFF;
     font-family: 'Roboto Mono', monospace;
-    margin: 20px; /* Remove default margin */
+    margin: 400px; /* Remove default margin */
    }
 
 h1 {
     font-family: 'Playfair Display', serif;
     color: #000000;
     font-weight: bold;
+    margin: 400px;
+}
+
+.content {
+    margin: 50px 100px; 
 }
 
 /* Top bar styles */
 #topBar {
-    background-color: #393A10;
-    color: #eee;
+    background-color: #eee;
     /*padding: 10px;*/
-    height: 100px;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 112;
+    z-index: 111;
 }
 
 /* Sidebar menu */
@@ -32,7 +36,7 @@ h1 {
        right: 20px;
        font-size: 2em;
        font-weight: 800;
-       z-index: 111;
+       z-index: 112;
        cursor: pointer;
        text-align: center;
        transition: all 0.5s;
@@ -42,7 +46,7 @@ h1 {
    
    #menu:hover{
        transform: rotate(90deg);
-       color: #393A10;
+       color: black;
    }
    
    ul{
@@ -89,10 +93,10 @@ h1 {
    
    #exit{
        position: fixed;
-       left: 10px;
+       right: 10px;
        padding: 0px;
        top: -10px;
-       font-size: 4em;
+       font-size: 3em;
        color: black;
        font-weight: 500;
        cursor: pointer;
