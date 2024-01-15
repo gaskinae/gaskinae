@@ -1,12 +1,15 @@
 /* Global settings */
-html{
-    background-color: #E3D4C6;
-    font-family: "Lucida Console", "Courier New", monospace;
-   }
-
 body {
     margin: 200px;
 }
+
+
+html{
+    background-color: #E3D4C6;
+    font-family: "Roboto Mono";
+   }
+
+/* Sidebar menu */
 
    #menu{
        right: 20px;
