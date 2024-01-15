@@ -1,0 +1,41 @@
+/* Global settings */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif
+}
+
+/* Customise the sidebar style */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100px;
+    background-color: #fff;
+    color: #333;
+    padding-top: 20px;
+}
+
+/* Customise the menu */
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Add styling for project gallery, animated skillbars, contact form, social media icons. etc. 
