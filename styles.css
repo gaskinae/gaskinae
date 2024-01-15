@@ -1,10 +1,9 @@
 /* Global settings */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono&display=swap');
 
 body {
     background-color: transparent;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto', monospace;
     color: black;
     margin: 2%, 10%;
    }
