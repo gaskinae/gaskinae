@@ -63,7 +63,7 @@ h1 {
        margin: 10px 0;
        color: #eee;
        cursor: pointer;
-       background-color: #393A10;
+       background-color: #ff0000;
        font-size: 1em;
        letter-spacing: 0.1em;
        transition: all 0.25s;
@@ -104,7 +104,7 @@ h1 {
        -webkit-transition: all 0.25s;
    }
    #exit:hover{
-       color:#393A10;
+       color:#fbff00;
    }
    
    #lgMenu.enter{
