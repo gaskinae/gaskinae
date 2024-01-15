@@ -6,20 +6,25 @@ body {
     background-color: transparent;
     font-family: 'Roboto Mono', monospace;
     color: black;
+    margin: 2%;
    }
 
 h1 {
     font-family: 'Playfair Display', serif;
     color: black;
     font-weight: bold;
+    margin: 2% 0;
 }
 
+p {
+    margin: 1% 0; /* Example: 1% of the viewport width on top and bottom, 0 on left and right */
+}
 
 /* Top bar styles */
 #topBar {
     background-color: transparent;
     padding: 0px;
-    height: 100px;
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
