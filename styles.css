@@ -5,20 +5,19 @@
 body {
     background-color: transparent;
     font-family: 'Roboto Mono', monospace;
-    margin-left: 100px; /* Remove default margin */
+    color: black;
    }
 
 h1 {
     font-family: 'Playfair Display', serif;
     color: black;
     font-weight: bold;
-    margin-left: 100px;
 }
 
 
 /* Top bar styles */
 #topBar {
-    background-color: white;
+    background-color: transparent;
     padding: 0px;
     height: 100px;
     display: flex;
