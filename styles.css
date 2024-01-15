@@ -1,41 +1,86 @@
 /* Global settings */
-body {
-    margin: 0;
-    font-family: 'Arial', sans-serif
-}
-
-/* Customise the sidebar style */
-.sidebar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 250px;
-    height: 100px;
-    background-color: #fff;
-    color: #333;
-    padding-top: 20px;
-}
-
-/* Customise the menu */
-.menu-icon {
-    font-size: 24px;
-    cursor: pointer;
-    padding: 10px;
-    text-align: center;
-}
-
-.menu {
-    list-style: none;
-    padding: 0;
-}
-
-.menu a:hover {
-    background-color: #555;
-}
-
-.content {
-    margin-left: 250px;
-    padding: 20px;
-}
+html{
+    background-color: #E3D4C6;
+     font-family: "Lucida Console", "Courier New", monospace;
+   }
+   #menu{
+       right: 20px;
+       font-size: 2em;
+       font-weight: 800;
+       z-index: 111;
+       cursor: pointer;
+       text-align: center;
+       transition: all 0.5s;
+       -webkit-transition: all 0.25s;
+       position: absolute;
+   }
+   
+   #menu:hover{
+       transform: rotate(90deg);
+       color: #393A10;
+   }
+   
+   ul{
+       list-style: none;
+       padding: 0;
+       margin-top: 75px;
+   }
+   
+   li{
+       text-align: center;
+       height: 70px;
+       line-height: 70px;
+       margin: 10px 0;
+       color: #eee;
+       cursor: pointer;
+       background-color: #393A10;
+       font-size: 1em;
+       letter-spacing: 0.1em;
+       transition: all 0.25s;
+   }
+   
+   li:hover{
+    background-color: white;
+       color: black;
+       letter-spacing: 0.3em;
+       font-size: 1.5em
+   }
+   
+   #lgMenu{
+       width: 400px;
+       height: 100%;
+       top: 0;
+       right: -400px;
+       overflow:hidden;
+       background-color: #E3D4C6;
+       position: absolute;
+       z-index: 11;
+       opacity: 0;
+       transition: all 0.01s;
+       -webkit-transition: all 0.25s;
+       
+   }
+   
+   #exit{
+       position: absolute;
+       left: 10px;
+       padding: 0px;
+       top: -10px;
+       font-size: 4em;
+       color: black;
+       font-weight: 500;
+       cursor: pointer;
+       transition: all 0.25s;
+       -webkit-transition: all 0.25s;
+   }
+   #exit:hover{
+       color:#393A10;
+   }
+   
+   #lgMenu.enter{
+       opacity: 1;
+       right: 0;
+   }
+   
 
 /* Add styling for project gallery, animated skillbars, contact form, social media icons. etc. 

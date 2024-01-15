@@ -1,9 +1,11 @@
 // Enable navigation with a clickable menu icon 
-document.addEventListener('DOMContentLoaded', function() {
-    const menuIcon = document.querySelector('.menu-icon');
-    const menu = document.querySelector('.menu');
-
-    menuIcon.addEventListener('click', function() {
-        menu.classList.toggle('show');
+$(document).ready(function(){
+    $("#menu").on("click", function(){
+       $("#menu").css("opacity", "0");
+        $("#lgMenu").addClass("enter");
     });
-});
+        $("#exit").on("click", function(){
+           $("#lgMenu").removeClass("enter");
+            $("#menu").css("opacity", "1");
+        });
+    });
