@@ -116,3 +116,16 @@ p {
    
 
 /* Add styling for project gallery, animated skillbars, contact form, social media icons. etc. 
+
+/* Adjust for smaller screens */
+@media screen and (max-width: 768px) { /* Adjust margins for screens up to 768 pixels wide */
+    body {
+        margin: 2% 4%; 
+    }
+    h1 {
+        margin: 2% 4%;
+    }
+    p {
+        margin: 1% 4%;
+    }
+}
