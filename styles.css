@@ -3,16 +3,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono&display=swap');
 
 body {
-    background-color: white;
+    background-color: transparent;
     font-family: 'Roboto Mono', monospace;
-    margin: 100px; /* Remove default margin */
+    margin-left: 100px; /* Remove default margin */
    }
 
 h1 {
     font-family: 'Playfair Display', serif;
     color: black;
     font-weight: bold;
-    margin: 100px;
+    margin-left: 100px;
 }
 
 
