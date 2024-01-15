@@ -6,18 +6,18 @@ body {
     background-color: transparent;
     font-family: 'Roboto Mono', monospace;
     color: black;
-    margin: 2%, 5%;
+    margin: 2%, 10%;
    }
 
 h1 {
     font-family: 'Playfair Display', serif;
     color: black;
     font-weight: bold;
-    margin: 2% 5%;
+    margin: 2% 10%;
 }
 
 p {
-    margin: 1% 5%; 
+    margin: 1% 10%; 
 }
 
 /* Top bar styles */
