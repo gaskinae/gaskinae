@@ -13,7 +13,7 @@ html{
        text-align: center;
        transition: all 0.5s;
        -webkit-transition: all 0.25s;
-       position: absolute;
+       position: fixed;
    }
    
    #menu:hover{
@@ -51,7 +51,7 @@ html{
        width: 400px;
        height: 100%;
        top: 0;
-       right: -400px;
+       right: -100px;
        overflow:hidden;
        background-color: #E3D4C6;
        position: fixed;
@@ -63,7 +63,7 @@ html{
    }
    
    #exit{
-       position: absolute;
+       position: fixed;
        left: 10px;
        padding: 0px;
        top: -10px;
