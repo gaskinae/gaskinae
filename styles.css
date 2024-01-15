@@ -3,14 +3,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono&display=swap');
 
 body {
-    background-color: #FFF;
+    background-color: white;
     font-family: 'Roboto Mono', monospace;
     margin: 100px; /* Remove default margin */
    }
 
 h1 {
     font-family: 'Playfair Display', serif;
-    color: #000000;
+    color: black;
     font-weight: bold;
     margin: 100px;
 }
@@ -18,8 +18,8 @@ h1 {
 
 /* Top bar styles */
 #topBar {
-    background-color: #eee;
-    padding: 10px;
+    background-color: white;
+    padding: 0px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -79,7 +79,7 @@ h1 {
        top: 0;
        right: -400px;
        overflow:hidden;
-       background-color: #E3D4C6;
+       background-color: white;
        position: fixed;
        z-index: 11;
        opacity: 0;
