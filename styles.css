@@ -3,6 +3,7 @@ html{
     background-color: #E3D4C6;
      font-family: "Lucida Console", "Courier New", monospace;
    }
+
    #menu{
        right: 20px;
        font-size: 2em;
@@ -53,7 +54,7 @@ html{
        right: -400px;
        overflow:hidden;
        background-color: #E3D4C6;
-       position: absolute;
+       position: fixed;
        z-index: 11;
        opacity: 0;
        transition: all 0.01s;
