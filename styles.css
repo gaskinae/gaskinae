@@ -1,13 +1,17 @@
 /* Global settings */
-body {
-    margin: 200px;
-}
-
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Mono&display=swap');
 
 html{
-    background-color: #E3D4C6;
-    font-family: "Roboto Mono";
+    background-color: #FFF;
+    font-family: 'Roboto Mono', monospace;
    }
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
 
 /* Sidebar menu */
 
