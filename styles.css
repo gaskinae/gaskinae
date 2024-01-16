@@ -141,50 +141,62 @@ p {
     position: relative;
 }
 
+
 /* CSS */
-.button-6 {
+.button-56 {
   align-items: center;
-  background-color: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: .25rem;
-  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.85);
+  color: #111;
   cursor: pointer;
-  display: inline-flex;
+  display: flex;
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
-  font-weight: 600;
+  height: 48px;
   justify-content: center;
-  line-height: 1.25;
-  margin: 2% 4%;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
   position: relative;
+  text-align: center;
   text-decoration: none;
-  transition: all 250ms;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  vertical-align: baseline;
-  width: auto;
 }
 
-.button-6:hover,
-.button-6:focus {
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: rgba(0, 0, 0, 0.65);
+.button-56:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
 }
 
-.button-6:hover {
-  transform: translateY(-1px);
+.button-56:hover:after {
+  transform: translate(0, 0);
 }
 
-.button-6:active {
-  background-color: #F0F0F1;
-  border-color: rgba(0, 0, 0, 0.15);
-  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
-  color: rgba(0, 0, 0, 0.65);
-  transform: translateY(0);
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
 }
