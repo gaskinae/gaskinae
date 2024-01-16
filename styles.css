@@ -35,16 +35,6 @@ p {
     margin: 0;
 }
 
-#logo-container {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
-
-#logo-container img {
-    width: 50px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-}
 
 /* Sidebar menu */
 
@@ -149,18 +139,3 @@ p {
     position: relative;
 }
 
-#social-links {
-    position: absolute;
-    display: flex;
-    gap: 10px;
-}
-
-#social-links a {
-    text-decoration: none;
-    color: black; /* Change the color as needed */
-    margin: 1% 4%
-}
-
-#social-links i {
-    font-size: 24px;
-}
