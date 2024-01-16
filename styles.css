@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
-
+html {
+    margin: 0;
+}
 
 body {
     background-color: transparent;
@@ -58,7 +60,7 @@ p {
    ul{
        list-style: none;
        padding: 0;
-       /*margin-top: 75px;*/
+       margin-top: 75px;
        margin: 0;
    }
    
