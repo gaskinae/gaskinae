@@ -19,33 +19,43 @@
 <body>
     <!-- Content goes here -->
     <div class="container">
-        <div class="row h">
-          <div class="col-xs-12">
-            <p>Hello. I'm Amy. These are some things.<br>This is a test.</p>          
-            <div class="row">
-              <p>Hello &bull; World</p>           
-            </div>          
-          </div>         
-        </div>
-    </div>
+        <!-- Use Bootstrap to create a navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+              <a class="navbar-brand" href="#">Your Brand</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
       
-        <!-- Project -->
-        <div class="content">
+        <!-- Homepage -->
+        <div class="row home">
             <section id="home">
                 <!-- Home content goes here-->
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h1>Hey! I'm Amy.</h1>
-                        <p>Coding for pathogen genomics and other creative projects.</p>
-                </div>
-                    </div>          
-
+                <h1>Hey! I'm Amy.</h1>
+                <p>Coding for pathogen genomics and other creative projects.</p>        
             </section>
+        
+            
 
             <section id="projects">
-                <div class="row">
-                    <h1>projects</h1>
-                    <p>Here are a few things I made earlier.</p>
             </div>
                 <!-- Gallery of projects goes here -->
             </section>

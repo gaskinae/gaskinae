@@ -4,3 +4,22 @@
 
    
 /* Add styling for project gallery, animated skillbars, contact form, social media icons. etc */
+body {
+    font-family: 'Roboto Mono', monospace;
+  }
+
+.navbar {
+    background-color: transparent;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem; 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #000; 
+  }
+  
+  .navbar-nav .nav-link {
+    color: #000; 
+  }
