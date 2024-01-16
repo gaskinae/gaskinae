@@ -4,6 +4,10 @@
 
    
 /* Add styling for project gallery, animated skillbars, contact form, social media icons. etc */
+html {
+    scroll-behavior: smooth;
+  }
+  
 body {
     font-family: 'Roboto Mono', monospace;
   }
