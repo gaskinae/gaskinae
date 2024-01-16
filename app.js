@@ -9,3 +9,8 @@ $(document).ready(function(){
             $("#menu").css("opacity", "1");
         });
     });
+
+// Navigation bar
+function navBarFunction() {
+    document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
+}

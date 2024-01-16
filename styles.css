@@ -44,7 +44,7 @@ p {
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: white;
   cursor: pointer;
   display: flex;
   font-family: 'Roboto Mono', monospace;
@@ -95,3 +95,96 @@ p {
     padding: 0 40px;
   }
 }
+
+.container {
+    margin: auto;
+    width: 90%;
+  }
+  .navbar {
+    position: fixed;
+    z-index: 100;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    left:0;
+    top:0;
+  }
+  .navbar li.logo,
+  .navbar li.navbar_items {
+    list-style-type: none;
+    display: inline-block;
+  }
+  .navbar li a {
+    margin-top: 50px;
+    font-family: 'Roboto', monospace;
+    font-size: 1.3em;
+    color: black;
+    font-weight: 700px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar li.navbar_items a:hover {
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    /*   padding-bottom: 5px; */
+  }
+  
+  .navbar li.icon {
+    display: none;
+  }
+  
+  .div_navbar_items {
+    float: right;
+    padding-right:1%;
+  }
+  /*Start of mobile nav*/
+  @media screen and (max-width:875px) {
+    .navbar li.navbar_items {
+      display: none;
+    }
+    .navbar li.icon {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: 1px;
+    }
+  }
+  @media screen and (max-width:875px) {
+    .navbar.responsive {
+      position:fixed;
+      width: 100%;
+      height: 100vh;
+      background-color: #17171e;
+      transition: background-color .6s;
+      overflow: scroll;
+    }
+    
+    .navbar.responsive li.logo {
+      floatL: left;
+      display: block;
+    }
+    .navbar.responsive .div_navbar_items {
+      float: none;
+      padding-right:0;
+    }
+    
+    .navbar.responsive li.navbar_items {
+      display: block;
+      padding: 50px;
+      font-size: 25px;
+    }
+    .navbar.responsive li.navbar_items a {
+      display: block;
+      text-align: center;
+    }
+    
+    .navbar.responsive li.navbar_items a:hover{
+      color:#17171e;
+      border-bottom-color: transparent;
+      
+    }
+  }
+  /*End of mobile nav*/
