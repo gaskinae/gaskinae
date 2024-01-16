@@ -163,7 +163,7 @@ p {
     }
     
     .navbar.responsive li.logo {
-      floatL: left;
+      float: left;
       display: block;
     }
     .navbar.responsive .div_navbar_items {
