@@ -10,7 +10,3 @@ $(document).ready(function(){
         });
     });
 
-// Navigation bar
-function navBarFunction() {
-    document.getElementsByClassName("navbar")[0].classList.toggle("responsive");
-}
