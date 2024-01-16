@@ -2,10 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
 
-html {
-    margin: 0;
-}
-
 body {
     background-color: transparent;
     font-family: 'Roboto Mono', monospace;
@@ -24,104 +20,7 @@ p {
     margin: 1% 10%; 
 }
 
-/* Top bar styles */
-#topBar {
-    background-color: transparent;
-    padding: 0px;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 112;
-    position: relative;
-    margin: 0;
-}
-
-
-/* Sidebar menu */
-
-   #menu{
-       right: 20px;
-       font-size: 2em;
-       font-weight: 800;
-       z-index: 112;
-       cursor: pointer;
-       text-align: center;
-       transition: all 0.5s;
-       -webkit-transition: all 0.25s;
-       position: fixed;
-   }
    
-   #menu:hover{
-       transform: rotate(90deg);
-       color: black;
-   }
-   
-   ul{
-       list-style: none;
-       padding: 0;
-       margin-top: 75px;
-       margin: 0;
-   }
-   
-   li{
-       text-align: center;
-       height: 70px;
-       line-height: 70px;
-       margin: 10px 0;
-       color: #eee;
-       cursor: pointer;
-       background-color: #393A10;
-       font-size: 1em;
-       letter-spacing: 0.1em;
-       transition: all 0.25s;
-   }
-   
-   li:hover{
-    background-color: white;
-       color: black;
-       letter-spacing: 0.3em;
-       font-size: 1.5em
-   }
-   
-   #lgMenu{
-       width: 400px;
-       height: 100%;
-       top: 0;
-       right: -400px;
-       overflow:hidden;
-       background-color: white;
-       position: fixed;
-       z-index: 11;
-       opacity: 0;
-       transition: all 0.01s;
-       -webkit-transition: all 0.25s;
-       
-   }
-   
-   #exit{
-       position: fixed;
-       right: 10px;
-       padding: 0px;
-       top: -10px;
-       font-size: 3em;
-       background-color: white;
-       color: black;
-       font-weight: 500;
-       cursor: pointer;
-       transition: all 0.25s;
-       -webkit-transition: all 0.25s;
-   }
-   #exit:hover{
-       color: black;
-   }
-   
-   #lgMenu.enter{
-       opacity: 1;
-       right: 0;
-   }
-   
-
 /* Add styling for project gallery, animated skillbars, contact form, social media icons. etc. 
 
 /* Adjust for smaller screens */
@@ -137,15 +36,11 @@ p {
     }
 }
 
-#home {
-    position: relative;
-}
 
-
-/* CSS */
+/* Button */
 .button-56 {
   align-items: center;
-  background-color: #fee6e3;
+  background-color: #65875a;
   border: 2px solid #111;
   border-radius: 8px;
   box-sizing: border-box;
