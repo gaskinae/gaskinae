@@ -50,3 +50,13 @@ p {
 .social-links a:hover {
   color: #5c6b28;
 }
+
+.col-md-4 a {
+    color: #5c6b28; 
+    text-decoration: underline; 
+  }
+  
+  .col-md-4 a:hover {
+    color: #5c6b28; 
+    text-decoration: underline wavy; 
+  }
