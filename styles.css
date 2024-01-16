@@ -71,6 +71,8 @@ p {
     --color: #373B44;
     
     padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    max-width: 15em; 
+    width: 100%;
     color: var(--color);
     --_p: var(--s);
     background:
