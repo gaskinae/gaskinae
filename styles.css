@@ -81,19 +81,20 @@ p {
 
 .button {
     font-family: 'Roboto Mono', monospace;
-    font-size: 1rem; /* Adjust font size as needed */
+    font-size: 1.2rem; /* Adjust font size as needed */
     color: #000; /* Black text color */
     background: transparent; /* Transparent background */
     border: 2px solid #000; /* Semi-thick black border */
-    padding: 10px 20px; /* Adjust padding as needed */
+    padding: 1rem 2rem; /* Adjust padding as needed */
     transition: border-width 0.3s ease; /* Transition effect for border width */
 }
 
 /* Hover effect: Expand border outward */
 .button:hover {
-    border-width: 4px; /* Increase border width on hover */
+    border-width: 0.4rem; /* Increase border width on hover */
 }
 
 .button-container {
     width: fit-content; /* Set width to fit content */
+    margin-top: 2rem;
 }
