@@ -35,6 +35,7 @@ p {
 /* Custom nav bar style */
 .navbar {
     background-color: transparent;
+    padding-top: 3vh;
   }
   
   .navbar-brand {
