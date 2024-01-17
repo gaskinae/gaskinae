@@ -35,7 +35,6 @@ p {
 /* Custom nav bar style */
 .navbar {
     background-color: transparent;
-    margin-bottom: 5vh;
   }
   
   .navbar-brand {
@@ -77,7 +76,7 @@ p {
   }
 
  .space-between-sections {
-    margin-bottom: 10vw; 
+    margin-top: 20vw; 
 }
 
 /* Button */
