@@ -93,3 +93,7 @@ p {
 .button:hover {
     border-width: 4px; /* Increase border width on hover */
 }
+
+.button-container {
+    width: fit-content; /* Set width to fit content */
+}
