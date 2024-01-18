@@ -120,38 +120,41 @@ p a:hover {
 
 .skill-icon {
     position: relative;
-    margin: 0 10px;
+    margin: 0 1rem;
     cursor: pointer;
 }
 
 .skill-icon img {
-    width: 50px; /* Adjust the size as needed */
-    height: 50px;
+    width: 4rem; /* Adjust the size as needed */
+    height: 4rem;
     border-radius: 50%;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0.8;
 }
 
 .skill-icon:hover img {
     transform: scale(1.2);
+    opacity: 1;
 }
 
 .tooltip {
     position: absolute;
-    bottom: 100%;
+    bottom: 120%;
     left: 50%;
     transform: translateX(-50%);
     background-color: #333;
     color: #fff;
-    padding: 5px;
+    padding: 0.5rem;
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 1rem;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
     pointer-events: none;
 }
 
 .skill-icon:hover .tooltip {
     opacity: 1;
+    transform: translateY(-0.2rem);
 }
 
 
