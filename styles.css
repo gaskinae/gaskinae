@@ -98,3 +98,13 @@ p {
     width: fit-content; /* Set width to fit content */
     margin-top: 2rem;
 }
+
+
+.contact {
+    background-color: #5c6b28; 
+    color: #ffffff; 
+}
+
+.footer {
+    align-items: center;
+}
