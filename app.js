@@ -10,28 +10,14 @@ $(document).ready(function(){
         });
     });
 
-// Skills card pagination 
-$(document).ready(function () {
-    const cards = $('.skill-card');
-    const cardCount = cards.length;
-    let currentCard = 0;
+// Skills
+document.addEventListener('DOMContentLoaded', function () {
+    const skillIcons = document.querySelectorAll('.skill-icon');
 
-    $('#next').on('click', function () {
-        if (currentCard < cardCount - 1) {
-            currentCard++;
-            updateDisplay();
-        }
+    skillIcons.forEach(icon => {
+        const tooltip = document.createElement('div');
+        tooltip.classList.add('tooltip');
+        tooltip.textContent = icon.getAttribute('data-tooltip');
+        icon.appendChild(tooltip);
     });
-
-    $('#prev').on('click', function () {
-        if (currentCard > 0) {
-            currentCard--;
-            updateDisplay();
-        }
-    });
-
-    function updateDisplay() {
-        const offset = -currentCard * 100 + '%';
-        $('.skills-container').css('transform', 'translateX(' + offset + ')');
-    }
 });
