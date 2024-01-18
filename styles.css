@@ -32,6 +32,17 @@ p {
     margin-bottom: 2vh;
 }
 
+p a {
+    color: #5c6b28; 
+    text-decoration: underline; 
+}
+
+p a:hover {
+    color: #5c6b28; 
+    text-decoration: underline wavy; 
+}
+
+
 /* Custom nav bar style */
 .navbar {
     background-color: transparent;
@@ -100,10 +111,6 @@ p {
 }
 
 
-.contact {
-    background-color: #5c6b28; 
-    color: #ffffff; 
-}
 
 .footer {
     align-items: center;
