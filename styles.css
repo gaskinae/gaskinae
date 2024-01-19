@@ -120,13 +120,13 @@ p a:hover {
 
 .skill-icon {
     position: relative;
-    margin: 0 1rem;
+    margin: 0 2rem;
     cursor: pointer;
 }
 
 .skill-icon img {
-    width: 6rem; /* Adjust the size as needed */
-    height: 6rem;
+    width: 8rem; /* Adjust the size as needed */
+    height: 8rem;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 0.8;
