@@ -113,9 +113,9 @@ p a:hover {
 
 .skills {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    justify-content: left;
+    align-items: left;
+    height: 150vh;
 }
 
 .skill-icon {
@@ -125,8 +125,8 @@ p a:hover {
 }
 
 .skill-icon img {
-    width: 4rem; /* Adjust the size as needed */
-    height: 4rem;
+    width: 6rem; /* Adjust the size as needed */
+    height: 6rem;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 0.8;
@@ -157,9 +157,3 @@ p a:hover {
     transform: translateY(-0.2rem);
 }
 
-
-.footer {
-    align-items: center;
-    background-color: #5c6b28; 
-    color: #ffffff; 
-}
