@@ -133,7 +133,7 @@ p a:hover {
 .skill-icon img {
     width: 10rem; /* Adjust the size as needed */
     height: 10rem;
-    border-radius: 50%;
+    border-radius: 0.5rem;;
     transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 0.8;
     object-fit: cover;
