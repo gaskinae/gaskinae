@@ -119,20 +119,20 @@ p a:hover {
 
 .skills {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     height: 150vh;
 }
 
 .skill-icon {
     position: relative;
-    margin: 0 2rem;
+    margin: 0 3rem;
     cursor: pointer;
 }
 
 .skill-icon img {
-    width: 8rem; /* Adjust the size as needed */
-    height: 8rem;
+    width: 10rem; /* Adjust the size as needed */
+    height: 10rem;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out, opacity 0.5s ease-in-out;
     opacity: 0.8;
