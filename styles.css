@@ -53,6 +53,7 @@ p a:hover {
 /* Custom nav bar style */
 .navbar {
     background-color: transparent;
+    position: fixed;
   }
   
   .navbar-brand {
@@ -81,6 +82,10 @@ p a:hover {
 
 .social-links a:hover {
   color: #5c6b28;
+}
+
+.col-md-2 {
+    margin-bottom: 1rem; 
 }
 
 .col-md-4 a {
