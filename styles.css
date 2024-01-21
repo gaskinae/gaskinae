@@ -87,6 +87,11 @@ p a:hover {
     margin-bottom: 1rem; 
 }
 
+.col-md-4:hover img {
+    opacity: 0.8; 
+    transition: opacity 0.3s ease;
+}
+
 .col-md-4 a {
     color: #5c6b28; 
     text-decoration: underline; 
