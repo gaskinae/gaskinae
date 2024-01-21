@@ -97,6 +97,15 @@ p a:hover {
     text-decoration: underline wavy; 
   }
 
+  .list-group-item a {
+    color: #5c6b28; 
+    text-decoration: underline; 
+  }
+  .list-group-item a:hover {
+    color: #5c6b28; 
+    text-decoration: underline wavy; 
+  }
+
  .space-between-sections {
     margin-top: 10vw; 
 }
