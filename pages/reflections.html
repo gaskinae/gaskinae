@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building This Website</title>
+    <meta name="Amy Gaskin" content="Showcasing my skills in bioinformatics, coding, and creative projects">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+    <link rel="manifest" href="assets/img/site.webmanifest">
+    <!-- Add additional secure stylesheets, meta tags, or links to external resources here -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" integrity ="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js" integrity="sha512-WW8/jxkELe2CAiE4LvQfwm1rajOS8PHasCCx+knHG0gBHt8EXxS6T6tJRTGuDQVnluuAvMxWF4j8SNFDKceLFg==" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+    <h1>How I built this portfolio website in two weeks</h1>
+    <p>Amy Gaskin | </p>
+    <p>
+       I decided to kick off 2024 by building a website to spotlight my ongoing projects and demonstrate my technical capabilities in coding and beyond. Within my current team, I'm known for my commitment to quality improvements, so, naturally, I've documented the process of building this website, which I recognise <i>is </i>a bit meta to host here, but it's a good excuse to reflect on the challenges I encountered along the way.
+    </p>
+    <p>
+       With all that in mind - let's get started! 
+    </p>
+    <h1>Setting things up </h1>
+    <p>Using GitHub Pages for Version Control and Deployment</p>
+    <p>
+       If you're not familiar with GitHub, you might not know that it provides a fairly straightforward method to deploy static websites directly from a GitHub repository. So, for the sake of simplicity, it allowed me to version control, manage my front-end code, and host it all in one place, which, for this project, was pretty useful. 
+    </p>
+    <p>
+       A summary of how I achieved this: 
+    </p>
+    <ol>
+       <li>Created a new repository on GitHub 
+       <li>Set up GitHub Pages in the repository settings 
+       <li>Chose the repository branch from which GitHub Pages would deploy content </li>
+    </ol>
+    <p>
+       At this point, I had a dedicated static page where I could host my portfolio, complete with a dedicated link! This was pretty motivating, but I was blocked by deciding whether I wanted to go one step further and attempt to do the back-end development of this, too. In the end, I decided the scope could be refined as part of a future iteration, as the priority was establishing an online presence, and doing back-end as well as front-end development would have taken longer than two weeks (around a full-time job). Minimum viable product, and all!
+    </p>
+    <p>
+       Before I started development, I confirmed the website deployment was working. GitHub Actions were useful here to track whether workflows to deploy the website were successful. 
+    </p>
+    <p>
+       In my repository, I created the core files for this project.
+    </p>
+    <ul>
+       <li>index.html: This is main HTML file of the website. It defines the structure and content of my website. 
+       <li>styles.css: This CSS file contains the styles information for my website. It determines how elements are visually presented, including colours, margins and padding, fonts, etc. 
+       <li>app.js: This is the JavaScript script to launch any dynamic functionality I wanted to add to the website to enhance the user experience. </li>
+    </ul>
+    <p>
+       I realise this spiel is basic,but it <i>is</i> important to get the basics right, as the last time I recall doing any kind of web development was coding themes for my Tumblr blog in my teenage years. (Arguably, this interest led me to my bioinformatics career).
+    </p>
+    <p>
+       I also created some subdirectories to organise my images and any subpages I wanted to include. It is very important to maintain a clean and organised repository structure, mostly for the sake of not irritating your future self, but also, theoretically, making collaboration easier if anyone wants to maintain or use your code. 
+    </p>
+    <h1>Organising Website Layout </h1>
+    <h2><b>Is "View Page Source" always your friend? </b></h2>
+    <p>
+       After setting up GitHub Pages and establishing a core set of files, the logical next step was to organise the wireframe of my website. Honestly, this was the biggest hurdle to overcome, because while I already knew what core sections I was going to create (<b>Homepage, Projects, Skills, Contact</b>), I couldn't decide on how I wanted it to look. Crucially, I also couldn't remember vocabulary like 'wireframe' to solve this problem, which wasn't helpful for Googling.
+    </p>
+    <p>
+       This is when I started browsing websites that I liked the look of and using 'View Page Source' to try and reverse-engineer them, but, I got overwhelmed by how <i>cool</i> these websites looked, and how I wasn't going to achieve that because, frankly, that wasn't the minimum viable product. And, after several attempts at trying to make my website sleek and <i>aesthetic</i>, I ended up corrupting the wireframe so much that I nuked the entire project and started again. (I probably lost a day's work to that nonsense.) 
+    </p>
+    <p>
+       My reflection? Keep. It. Simple.
+    </p>
+    <p>
+       A really good example of this is the website that recently-retired digital creator <a href="https://www.tomscott.com/">Tom Scott</a> built to showcase his projects. When I took a glance at the page source, it was so clearly built that it reminded me a bit of Lego. Anyway, thanks to that structure, I began to map my own wireframe out, but not before I immediately realised something important that I'd totally forgotten about.
+    </p>
+    <h2><b>Boilerplates and Bootstrap classes.  </b></h2>
+    <p>
+       Any waning knowledge on web development from my teenage years <i>immediately</i> came flooding back. For instance, a <a href="https://github.com/h5bp/html5-boilerplate-template/blob/main/index.html">standardised HTML boilerplate</a> provides a starting point that includes all the necessary tags and structure to get a webpage up and running quickly (including <b>favicons</b>!). This is why standardisation is beautiful.
+    </p>
+    <p>
+       Then, Bootstrap. This is a popular front-end framework that provides a set of pre-designed, responsive, and customisable CSS classes in stylesheets. These stylesheets streamline web development by offering a consistent and aesthetically pleasing design across various devices, saving time and effort in creating responsive layouts and components. 
+    </p>
+    <p>
+       Aside from importing a Bootstrap style sheet, I also imported some external JQuery scripts into my index.html file so I could make use of the JavaScript library jQuery and make my site interactive, and one from FontAwesome so I could fetch some social media icons. 
+    </p>
+    <p>
+       <b><i>Side note: To exert caution, whenever I imported an external stylesheet or script, I made sure to provide an official SHA integrity hash to prevent potential malicious code injection. It works by ensuring that the linked stylesheet or script has not been altered or compromised, which provides a mechanism to verify the authenticity and integrity of the external resource. Best to be on the safe side!</i></b>
+    </p>
+    <p>
+       <b><i>Side side note: Don't try to use Bootstrap classes from version 3 when the stylesheet you've imported is version 5 and then wonder why your styling isn't working. You will feel silly.</i></b>
+    </p>
+    <p>
+       A feature I knew I wanted was a simple navigation bar, which became much easier to design once I'd implemented Bootstrap styling. 
+    </p>
+    <p>
+       Anyway, I was then able to easily structure my webpage. In Bootstrap, the grid system is based on a 12-column layout, and different classes are designed so users can create responsive and flexible layouts. In particular, I used this to arrange my projects and highlight my skills in a visually-appealing manner. I won't lie, I really enjoy how the <b>grid in the Skills section </b>turned out. The icons really work well together, and it's a good method to easily communicate the things I can do!
+    </p>
+    <h2><b><i>Make it work. Make it fast. Make it pretty. </i></b>- Dr Ric Anney</h2>
+    <p>
+       While aesthetics of a website <i>are </i>important, it is prudent to prioritise them after ensuring a robust foundation. My Bioinformatics professor at university created this helpful slogan to keep this principle in mind when coding anything (but, as we have seen here, I don't always remember it!).
+    </p>
+    <p>
+       In summary:
+    </p>
+    <ul>
+       <li>Select appropriate typefaces (e.g. serif for headers, monospace for text), to enhance readability.
+       <li>Keep the background simple and clean. You can always make it prettier later. 
+       <li>Choose a simple colour palette to harmonise your design as your HTML/CSS gets more complex. Once again, you can always refine it in a later iteration. 
+       <li>Design basic graphics using tools like Canva
+       <li>Responsive favicons are handled with a HTML boilerplate, and you can design a basic one with <a href="https://favicon.io/">website designed to do just this</a>. 
+       <li>Focus on functionality and navigation and create simple buttons to navigate to the parts of the website you want to highlight most (for me, this was <b>Projects</b>). 
+       <li>Implement some simple smooth scrolling with JQuery to create a more polished user experience without overdoing it.</li>
+    </ul>
+    <h1>Writing Content</h1>
+    <p>
+       At the very least, spending time getting the foundations right allowed me time to figure out what kind of content I wanted to include, and how I can easily add to each section as I widen my skillset and embark on more projects!
+    </p>
+    <h1>Final Reflections</h1>
+    <p>
+       And that's it! At the end of two weeks, I have a basic, functioning website hosted on GitHub. I certainly learned a lot during this experience, and I hope you learned a bit too, if you've read this far!
+    </p>
+    <p>
+       Remember:
+    </p>
+    <ul>
+       <li>Don't be afraid to refresh your knowledge if it's been a while since you last did a similar project. (Especially if it's been sandwiched by a pandemic). 
+       <li>Don't be a magpie and focus on the shiny things 
+       <li>Keep it simple by defining a minimum viable product
+       <li>Make it work, make it fast, make it pretty</li>
+    </ul>
+    <p>
+       All the best,
+    </p>
+    <p>
+       Amy 
+    </p>
+
+    <!-- JavaScript code goes here-->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="app.js" defer></script>
+</body>
+</html>
