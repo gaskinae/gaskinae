@@ -182,7 +182,7 @@ p a:hover {
     transform: translateY(-0.2rem);
 }
 
-.footer {
+footer {
     background-color: #5c6b28;
     color: white;
     padding: 15px 0;
